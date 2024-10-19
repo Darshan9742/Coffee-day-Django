@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-1a(4^as@x3o+m2li96f#+2+82n8s1syvzqbk3#-&ln!r3l!f0d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 # Application definition
@@ -141,3 +141,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # settings.py
 
 LOGIN_URL = '/login/'  # or the URL name of your login view
+WSGI_APPLICATION = 'api.wsgi.app'
