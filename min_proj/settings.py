@@ -141,4 +141,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # settings.py
 
 LOGIN_URL = '/login/'  # or the URL name of your login view
-# WSGI_APPLICATION = 'api.wsgi.app'
+WSGI_APPLICATION = 'api.wsgi.app'
