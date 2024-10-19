@@ -5,6 +5,8 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 urlpatterns = [
+    path("",views.home_view,name="home"),
+
     path("accounts/", include("django.contrib.auth.urls")),
 
     path("register/",views.register_view,name="register"),
